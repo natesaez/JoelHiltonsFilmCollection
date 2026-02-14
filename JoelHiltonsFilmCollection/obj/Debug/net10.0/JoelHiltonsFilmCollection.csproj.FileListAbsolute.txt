@@ -95,3 +95,4 @@
 /Users/nsaez/RiderProjects/JoelHiltonsFilmCollection/JoelHiltonsFilmCollection/obj/Debug/net10.0/JoelHiltonsFilmCollection.pdb
 /Users/nsaez/RiderProjects/JoelHiltonsFilmCollection/JoelHiltonsFilmCollection/obj/Debug/net10.0/JoelHiltonsFilmCollection.genruntimeconfig.cache
 /Users/nsaez/RiderProjects/JoelHiltonsFilmCollection/JoelHiltonsFilmCollection/obj/Debug/net10.0/ref/JoelHiltonsFilmCollection.dll
+/Users/nsaez/RiderProjects/JoelHiltonsFilmCollection/JoelHiltonsFilmCollection/obj/Debug/net10.0/JoelHiltonsFilmCollection.sourcelink.json

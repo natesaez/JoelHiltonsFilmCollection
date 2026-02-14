@@ -10,6 +10,16 @@ public class HomeController : Controller
     {
         return View();
     }
+    
+    public IActionResult InfoJoel()
+    {
+        return View();
+    }
+    
+    public IActionResult EnterMovie()
+    {
+        return View();
+    }
 
     
 }
