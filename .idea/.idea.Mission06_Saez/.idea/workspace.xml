@@ -9,20 +9,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9a68379-ec3f-4fc7-ad51-800b3f54e1d9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/JoelHiltonsFilmCollection/Models/ErrorViewModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Mission06_Saez/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Mission06_Saez/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JoelHiltonsFilmCollection/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/JoelHiltonsFilmCollection/Controllers/HomeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JoelHiltonsFilmCollection/JoelHiltonsFilmCollection.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/JoelHiltonsFilmCollection/JoelHiltonsFilmCollection.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JoelHiltonsFilmCollection/Models/NewMovie.cs" beforeDir="false" afterPath="$PROJECT_DIR$/JoelHiltonsFilmCollection/Models/NewMovie.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JoelHiltonsFilmCollection/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/JoelHiltonsFilmCollection/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JoelHiltonsFilmCollection/Views/Home/EnterMovie.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/JoelHiltonsFilmCollection/Views/Home/EnterMovie.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JoelHiltonsFilmCollection/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/JoelHiltonsFilmCollection/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JoelHiltonsFilmCollection/bin/Debug/net10.0/JoelHiltonsFilmCollection.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/JoelHiltonsFilmCollection/bin/Debug/net10.0/JoelHiltonsFilmCollection.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JoelHiltonsFilmCollection/bin/Debug/net10.0/JoelHiltonsFilmCollection.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JoelHiltonsFilmCollection/bin/Debug/net10.0/JoelHiltonsFilmCollection.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JoelHiltonsFilmCollection/bin/Debug/net10.0/JoelHiltonsFilmCollection.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/JoelHiltonsFilmCollection/bin/Debug/net10.0/JoelHiltonsFilmCollection.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JoelHiltonsFilmCollection/bin/Debug/net10.0/JoelHiltonsFilmCollection.runtimeconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/JoelHiltonsFilmCollection/bin/Debug/net10.0/JoelHiltonsFilmCollection.runtimeconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JoelHiltonsFilmCollection/bin/Debug/net10.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/JoelHiltonsFilmCollection/bin/Debug/net10.0/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JoelHiltonsFilmCollection/obj/Debug/net10.0/JoelHiltonsFilmCollection.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/JoelHiltonsFilmCollection/obj/Debug/net10.0/JoelHiltonsFilmCollection.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JoelHiltonsFilmCollection/obj/Debug/net10.0/JoelHiltonsFilmCollection.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JoelHiltonsFilmCollection/obj/Debug/net10.0/JoelHiltonsFilmCollection.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JoelHiltonsFilmCollection/obj/Debug/net10.0/JoelHiltonsFilmCollection.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/JoelHiltonsFilmCollection/obj/Debug/net10.0/JoelHiltonsFilmCollection.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JoelHiltonsFilmCollection/obj/Debug/net10.0/JoelHiltonsFilmCollection.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JoelHiltonsFilmCollection/obj/Debug/net10.0/JoelHiltonsFilmCollection.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JoelHiltonsFilmCollection/obj/Debug/net10.0/JoelHiltonsFilmCollection.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JoelHiltonsFilmCollection/obj/Debug/net10.0/JoelHiltonsFilmCollection.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JoelHiltonsFilmCollection/obj/Debug/net10.0/JoelHiltonsFilmCollection.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/JoelHiltonsFilmCollection/obj/Debug/net10.0/JoelHiltonsFilmCollection.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JoelHiltonsFilmCollection/obj/Debug/net10.0/JoelHiltonsFilmCollection.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JoelHiltonsFilmCollection/obj/Debug/net10.0/JoelHiltonsFilmCollection.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JoelHiltonsFilmCollection/obj/Debug/net10.0/JoelHiltonsFilmCollection.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JoelHiltonsFilmCollection/obj/Debug/net10.0/JoelHiltonsFilmCollection.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JoelHiltonsFilmCollection/obj/Debug/net10.0/JoelHiltonsFilmCollection.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/JoelHiltonsFilmCollection/obj/Debug/net10.0/JoelHiltonsFilmCollection.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JoelHiltonsFilmCollection/obj/Debug/net10.0/JoelHiltonsFilmCollection.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/JoelHiltonsFilmCollection/obj/Debug/net10.0/JoelHiltonsFilmCollection.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JoelHiltonsFilmCollection/obj/Debug/net10.0/ref/JoelHiltonsFilmCollection.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JoelHiltonsFilmCollection/obj/Debug/net10.0/ref/JoelHiltonsFilmCollection.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JoelHiltonsFilmCollection/obj/Debug/net10.0/refint/JoelHiltonsFilmCollection.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JoelHiltonsFilmCollection/obj/Debug/net10.0/refint/JoelHiltonsFilmCollection.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JoelHiltonsFilmCollection/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/JoelHiltonsFilmCollection/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JoelHiltonsFilmCollection/obj/Debug/net10.0/rjsmrazor.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/JoelHiltonsFilmCollection/obj/Debug/net10.0/rjsmrazor.dswa.cache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JoelHiltonsFilmCollection/obj/Debug/net10.0/rpswa.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/JoelHiltonsFilmCollection/obj/Debug/net10.0/rpswa.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JoelHiltonsFilmCollection/obj/JoelHiltonsFilmCollection.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/JoelHiltonsFilmCollection/obj/JoelHiltonsFilmCollection.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JoelHiltonsFilmCollection/obj/JoelHiltonsFilmCollection.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/JoelHiltonsFilmCollection/obj/JoelHiltonsFilmCollection.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JoelHiltonsFilmCollection/obj/JoelHiltonsFilmCollection.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/JoelHiltonsFilmCollection/obj/JoelHiltonsFilmCollection.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JoelHiltonsFilmCollection/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/JoelHiltonsFilmCollection/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JoelHiltonsFilmCollection/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JoelHiltonsFilmCollection/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JoelHiltonsFilmCollection/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/JoelHiltonsFilmCollection/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JoelHiltonsFilmCollection/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/JoelHiltonsFilmCollection/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JoelHiltonsFilmCollection/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/JoelHiltonsFilmCollection/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,12 +70,18 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/JoelHiltonsFilmCollection/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/JoelHiltonsFilmCollection/Models/MovieContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/JoelHiltonsFilmCollection/Models/NewMovie.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/JoelHiltonsFilmCollection/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/JoelHiltonsFilmCollection/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/JoelHiltonsFilmCollection/Views/Home/infoJoel.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/JoelHiltonsFilmCollection/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/JoelHiltonsFilmCollection/obj/Debug/net10.0/JoelHiltonsFilmCollection.sourcelink.json" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -69,6 +96,7 @@
     &quot;.NET Launch Settings Profile.JoelHiltonsFilmCollection: http.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
@@ -122,7 +150,7 @@
       <option name="presentableId" value="Default" />
       <updated>1771050536727</updated>
       <workItem from="1771050537817" duration="1704000" />
-      <workItem from="1771058564212" duration="8020000" />
+      <workItem from="1771058564212" duration="14220000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit, almost done">
       <option name="closed" value="true" />
@@ -132,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771060819480</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2nd commit. Made some changes to the add movie page.">
+      <option name="closed" value="true" />
+      <created>1771232673937</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1771232673937</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,7 +179,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="First Commit, almost done" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit, almost done" />
+    <MESSAGE value="2nd commit. Made some changes to the add movie page." />
+    <option name="LAST_COMMIT_MESSAGE" value="2nd commit. Made some changes to the add movie page." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
