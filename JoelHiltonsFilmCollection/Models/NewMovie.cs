@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace JoelHiltonsFilmCollection.Models;
 
@@ -8,7 +9,9 @@ public class NewMovie
     [Required]
     public int MovieId { get; set; }
 
+    [ForeignKey("CategoryId")]
     public int CategoryId { get; set; }
+    public Categories Category { get; set; }
 
     [Required]
     public string Title { get; set; } = "";

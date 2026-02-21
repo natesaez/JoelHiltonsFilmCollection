@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="JoelHiltonMovieCollection" uuid="f10db70a-0617-4c80-98be-67d952616270">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/JoelHiltonsFilmCollection/JoelHiltonMovieCollection.sqlite</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
     <data-source source="LOCAL" name="Movies" uuid="a693efdf-c65a-4694-8c55-cb8d58be62a7">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
@@ -8,11 +15,18 @@
       <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/JoelHiltonsFilmCollection/Movies.sqlite</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="JoelHiltonMovieCollection" uuid="f10db70a-0617-4c80-98be-67d952616270">
+    <data-source source="LOCAL" name="JoelHiltonMovieCollection (1)" uuid="93949491-33e3-450d-a53c-23b028565194">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/JoelHiltonsFilmCollection/JoelHiltonMovieCollection.sqlite</jdbc-url>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/JoelHiltonsFilmCollection/JoelHiltonMovieCollection (1).sqlite</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="JoelHiltonMovieCollection1" uuid="8ca91de2-7aef-4ca2-b2ab-4b43b2074dab">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/JoelHiltonsFilmCollection/JoelHiltonMovieCollection1.sqlite</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>
