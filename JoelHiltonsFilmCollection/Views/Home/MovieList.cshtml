@@ -1,18 +1,33 @@
 @{
 }
 
-
+@model List<NewMovie>
 <table>
     <thead>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Title</td>
+    <td>Year</td>
+    <td>Category</td>
+    <td>Director</td>
+    <td>Rating</td>
+    <td>Edited</td>
+    <td>LentTo</td>
+    <td>CopiedToPlex</td>
+    <td>Notes</td>
     </thead>
     
-    <tbody>
-    
-    </tbody>
+    @foreach (var app in Model)
+    {
+        <tbody>
+        <td>@app.Title</td>
+        <td>@app.Year</td>
+        <td>@app.CategoryId</td>
+        <td>@app.Director</td>
+        <td>@app.Rating</td>
+        <td>@app.Edited</td>
+        <td>@app.LentTo</td>
+        <td>@app.CopiedToPlex</td>
+        <td>@app.Notes</td>
+
+        </tbody>
+    }
 </table>

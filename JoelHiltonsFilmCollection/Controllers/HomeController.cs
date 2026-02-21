@@ -31,10 +31,18 @@ public class HomeController : Controller
     [HttpPost]
     public IActionResult EnterMovie(NewMovie newMovie)
     {
-        _context.NewMovies.Add(newMovie);
+        _context.Movies.Add(newMovie);
         _context.SaveChanges();
         
         return RedirectToAction("Index");
+    }
+
+    public IActionResult MovieList()
+    {
+        var movies = _context.Movies
+            .ToList();
+        return View(movies);
+
     }
 
 }
