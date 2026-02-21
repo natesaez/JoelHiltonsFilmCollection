@@ -23,7 +23,7 @@ public class NewMovie
 
     public bool? Edited { get; set; }
     public string? LentTo { get; set; }
-    public bool? CopiedToPlex { get; set; }
+    public bool CopiedToPlex { get; set; }
     public string? Notes { get; set; }
     
 }
