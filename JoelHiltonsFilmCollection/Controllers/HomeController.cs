@@ -33,12 +33,6 @@ public class HomeController : Controller
     [HttpPost]
     public IActionResult EnterMovie(NewMovie newMovie)
     {
-        if (!ModelState.IsValid)
-        {
-            ViewBag.Categories = _context.Categories
-                .ToList();
-            return View("MovieList", newMovie);
-        }
         _context.Movies.Add(newMovie);
         _context.SaveChanges();
         
@@ -49,6 +43,7 @@ public class HomeController : Controller
     {
         var movies = _context.Movies
             .OrderBy(x => x.MovieId).ToList();
+        
         return View(movies);
 
     }
