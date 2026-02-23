@@ -7,11 +7,26 @@
 <br/>
 
 <div>
-    <form asp-action="EnterMovie" asp-controller="Home" method="post">
+    <form method="post">
+        
+        
+        <input  type="hidden" asp-for="MovieId" />
+        <br/>
 
-        <label asp-for="CategoryId">Category</label>
+        @*
+        <label asp-for="CategoryId">CategoryIdPlaceholder</label>
         <br/>
         <input asp-for="CategoryId" required/>
+        <br/><br/>
+        *@
+
+        <select asp-for="CategoryId">
+            <option value="">Select a Category</option>
+            @foreach (var c in ViewBag.Categories)
+            {
+                <option value="@c.CategoryId">@c.CategoryName</option>
+            }
+        </select>
 
         <br/><br/>
         <label asp-for="Title">Title</label>
@@ -33,10 +48,16 @@
         <br/>
         <select asp-for="Rating" required>
             <option value="">Select a rating</option>
+            <option value="NR">NR</option>
+            <option value="R">R</option>
+            <option value="TV-14">TV-14</option>
+            <option value="UR">UR</option>
+            <option value="PG-13">PG-13</option>
+            <option value="TV-PG">TV-PG</option>
             <option value="G">G</option>
             <option value="PG">PG</option>
-            <option value="PG-13">PG-13</option>
-            <option value="R">R</option>
+            <option value="TV-y7">TV-y7</option>
+            <option value="TV-G">TV-G</option>
         </select>
 
         <br/><br/>
@@ -52,7 +73,7 @@
         <br/>
         <input asp-for="LentTo"/>
         <br/><br/>
-        
+
         <label asp-for="CopiedToPlex">Copied To Plex</label>
         <select asp-for="CopiedToPlex">
             <option value="true">Yes</option>

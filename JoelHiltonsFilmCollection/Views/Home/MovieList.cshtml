@@ -2,9 +2,8 @@
 }
 
 @model List<NewMovie>
-<table>
-    <thead class="table table-bordered">
-    <tr class="fw-bolder">
+<table class="table table-bordered">
+    <thead class="fw-bolder">
         <td>Title</td>
         <td>Year</td>
         <td>Category</td>
@@ -14,13 +13,12 @@
         <td>LentTo</td>
         <td>CopiedToPlex</td>
         <td>Notes</td>
-    </tr>
     </thead>
     
     @foreach (var app in Model)
     {
         <tbody>
-        <tr>
+        
             <td>@app.Title</td>
             <td>@app.Year</td>
             <td>@app.CategoryId</td>
@@ -30,7 +28,10 @@
             <td>@app.LentTo</td>
             <td>@app.CopiedToPlex</td>
             <td>@app.Notes</td>
-        </tr>
+
+            <td><a class="btn btn-info" asp-controller="Home" asp-action="Edit" asp-route-id="@app.MovieId">Edit</a></td>
+            <td><a class="btn btn-danger" asp-controller="Home" asp-action="Delete" asp-route-id="@app.MovieId">Delete</a></td>
+        
         </tbody>
     }
 </table>
