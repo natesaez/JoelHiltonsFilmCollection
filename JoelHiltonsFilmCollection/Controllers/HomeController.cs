@@ -27,16 +27,26 @@ public class HomeController : Controller
     {
         ViewBag.Categories = _context.Categories
             .OrderBy(x => x.CategoryName).ToList();
-        return View("EnterMovie");
+        return View("EnterMovie", new NewMovie());
     }
 
     [HttpPost]
     public IActionResult EnterMovie(NewMovie newMovie)
     {
-        _context.Movies.Add(newMovie);
-        _context.SaveChanges();
+        if (ModelState.IsValid)
+        {
+            _context.Movies.Add(newMovie);
+            _context.SaveChanges();
         
-        return RedirectToAction("Index");
+            return RedirectToAction("Index");   
+        }
+        else
+        {
+            ViewBag.Categories = _context.Categories
+                .OrderBy(x => x.CategoryName).ToList();
+            return View(newMovie);
+        }
+
     }
 
     public IActionResult MovieList()

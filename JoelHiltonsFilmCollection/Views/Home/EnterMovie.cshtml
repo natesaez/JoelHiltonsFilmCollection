@@ -19,9 +19,9 @@
         <input asp-for="CategoryId" required/>
         <br/><br/>
         *@
-
+        <label asp-for="CategoryId">Category</label>
         <select asp-for="CategoryId">
-            <option value="">Select a Category</option>
+            <option value="0">Select a Category</option>
             @foreach (var c in ViewBag.Categories)
             {
                 <option value="@c.CategoryId">@c.CategoryName</option>
@@ -31,22 +31,22 @@
         <br/><br/>
         <label asp-for="Title">Title</label>
         <br/>
-        <input asp-for="Title" required/>
+        <input asp-for="Title" />
 
         <br/><br/>
         <label asp-for="Year">Year</label>
         <br/>
-        <input asp-for="Year" required/>
+        <input asp-for="Year" />
 
         <br/><br/>
         <label asp-for="Director">Director</label>
         <br/>
-        <input asp-for="Director" required/>
+        <input asp-for="Director" />
 
         <br/><br/>
         <label asp-for="Rating">Rating</label>
         <br/>
-        <select asp-for="Rating" required>
+        <select asp-for="Rating" >
             <option value="">Select a rating</option>
             <option value="NR">NR</option>
             <option value="R">R</option>
@@ -87,5 +87,6 @@
         <br/><br/>
 
         <button type="submit">Add Movie</button>
+        <div asp-validation-summary="All"></div>
     </form>
 </div>
